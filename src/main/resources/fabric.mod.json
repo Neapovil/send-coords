@@ -8,18 +8,15 @@
   "authors": [],
   "contact": {},
 
-  "license": "CC0-1.0",
+  "license": "Unlicense",
   "icon": "assets/sendcoords/icon.png",
 
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "com.github.neapovil.sendcoords.SendCoords"
-    ]
+    "client": ["com.github.neapovil.sendcoords.SendCoords"],
+    "modmenu": ["com.github.neapovil.sendcoords.config.ModMenu"]
   },
-  "mixins": [
-    "sendcoords.mixins.json"
-  ],
+  "mixins": ["sendcoords.mixins.json"],
 
   "depends": {
     "fabricloader": ">=0.14.6",
