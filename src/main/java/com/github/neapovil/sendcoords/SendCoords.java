@@ -16,7 +16,7 @@ import net.minecraft.util.math.BlockPos;
 public class SendCoords implements ClientModInitializer
 {
     private KeyBinding keyBinding;
-    public ModConfig modConfig;
+    private ModConfig modConfig;
 
     @Override
     public void onInitializeClient()
