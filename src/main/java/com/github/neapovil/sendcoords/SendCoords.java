@@ -39,7 +39,7 @@ public class SendCoords implements ClientModInitializer
 
             final BlockPos pos = client.player.getBlockPos();
 
-            while (keyBinding.wasPressed())
+            while (this.keyBinding.wasPressed())
             {
                 client.player.sendChatMessage(this.modConfig.commandPrefix + " " + pos.getX() + ", " + pos.getY() + ", " + pos.getZ());
             }
